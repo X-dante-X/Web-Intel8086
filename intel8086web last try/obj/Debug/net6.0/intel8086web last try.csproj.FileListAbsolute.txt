@@ -1,0 +1,26 @@
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\bin\Debug\net6.0\appsettings.json
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\bin\Debug\net6.0\intel8086web last try.staticwebassets.runtime.json
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\bin\Debug\net6.0\intel8086web last try.exe
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\bin\Debug\net6.0\intel8086web last try.deps.json
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\bin\Debug\net6.0\intel8086web last try.runtimeconfig.json
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\bin\Debug\net6.0\intel8086web last try.dll
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\bin\Debug\net6.0\intel8086web last try.pdb
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.csproj.AssemblyReference.cache
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.AssemblyInfoInputs.cache
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.AssemblyInfo.cs
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.csproj.CoreCompileInputs.cache
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.RazorAssemblyInfo.cache
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.RazorAssemblyInfo.cs
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\scopedcss\bundle\intel8086web last try.styles.css
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\scopedcss\projectbundle\intel8086web last try.bundle.scp.css
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.dll
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\refint\intel8086web last try.dll
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.pdb
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\intel8086web last try.genruntimeconfig.cache
+C:\Users\solom\source\repos\intel8086web last try\intel8086web last try\obj\Debug\net6.0\ref\intel8086web last try.dll

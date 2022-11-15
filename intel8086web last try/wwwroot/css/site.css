@@ -1,0 +1,457 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+body {
+	overflow-y: hidden;
+	overflow-x: hidden;  
+  display: flex;
+	flex-direction: column;
+  }
+header
+  {
+    background-image: url("image_2022-11-06_19-51-32.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 134px;
+    display: flex;
+    background-size: cover;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+  }
+  
+nav .intel a
+{
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  text-decoration: none;
+  background: linear-gradient(178.67deg, #FFFFFF 1.13%, #7481E0 77.7%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  background-clip: text;
+}
+nav
+{
+  width: 100%;
+}
+main
+{
+  position: relative;
+  background-image: url("image_2022-11-06_21-16-46.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 612px;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.card
+{
+box-sizing: border-box;
+position: relative;
+width: 278px;
+height: 383px;
+top: 131px;
+background: linear-gradient(153.87deg, rgba(245, 245, 245, 0.65) 0.91%, rgba(245, 245, 245, 0) 100%);
+border: 1px solid #FDFBFB;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 5px;
+z-index: 2;
+}
+button
+{
+  cursor: pointer;
+}
+.regform
+{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  position: relative;
+  width: 278px;
+  height: 319px;
+  left: -20px;
+  z-index: 12;
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.regform1
+{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 319px;
+}
+.regform1 div input
+{
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+width: 80px;
+height: 32px;
+background: #5887FF;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.regform1 div
+{
+  display: flex;
+  align-items: center;
+}
+.regform1 div label
+{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 27px;
+  padding-right: 27px;
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;  
+  background: #5887FF;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-left: 50px;
+  text-align: center;
+}
+.regform2
+{
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 100px;
+left: 40px;
+top: 200px
+}
+.regform2 button
+{
+  width: 100px;
+  height: 38px;
+  background: linear-gradient(97.41deg, #5887FF 0%, #DABFDD 100%);
+border: 1px solid #000000;
+border-radius: 5px;
+font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+.card .hfunc
+{
+  width: 178px;
+  height: 32px;
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  background: #79B4F8;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  top: 35px;
+  left:49px;
+}
+.regformmid
+{
+  top:15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: -100px;
+  justify-content:space-around;
+  height: 240px;
+}
+.regformmid div input,select
+{
+width: 100px;
+height: 32px;
+font-family: 'Gugi';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+background: #79B4F8;
+border: 1px solid #000000;
+border-radius: 5px;
+text-align: center;
+}
+.regformmid div select option
+{
+  position: absolute;
+  right: 82px;
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  width: 82px;
+  height: 16px;
+  text-align: center;
+}
+.regformmid button
+{
+  position: relative;
+  width: 100px;
+  height: 38px;
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  background: linear-gradient(101.99deg, #79B4F8 0%, #9A9BE5 100%);
+  border: 1px solid #000000;
+  border-radius: 5px;
+  top: 30px;
+  left: 120px;
+}
+::-webkit-input-placeholder { font-size: 12px;}
+::-moz-placeholder { font-size: 12px;}
+:-ms-input-placeholder {font-size: 12px;}
+:-moz-placeholder {font-size: 12px;}
+
+.card .hfuncmem
+{
+  width: 260px;
+  height: 32px;
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  background: #CBC1EE;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  top: 35px;
+  left:7px;
+}
+.regformright
+{
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  left: -40px;
+  justify-content:space-around;
+  height: 240px;
+}
+.firstfc form
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  height: 140px;
+}
+.firstfc form div input
+{
+text-align: center;
+width: 138px;
+height: 32px;
+font-family: 'Gugi';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+background: #C4BBED;
+border: 1px solid #000000;
+border-radius: 5px;
+}
+.firstfc form button
+{
+  position: relative;
+text-align: center;
+width: 100px;
+height: 32px;
+font-family: 'Gugi';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+background: linear-gradient(111.98deg, #C4BBED 0%, #E1C0D7 100%);
+border: 1px solid #000000;
+border-radius: 5px;
+left: 180px;
+}
+.secondfc
+{
+  position: relative;
+  top: 50px;
+}
+
+.secondfc form div input
+{
+text-align: center;
+width: 138px;
+height: 32px;
+font-family: 'Gugi';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+background: #C4BBED;
+border: 1px solid #000000;
+border-radius: 5px;
+}
+.secondfc form div button
+{
+  position: relative;
+text-align: center;
+width: 100px;
+height: 32px;
+font-family: 'Gugi';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+background: linear-gradient(111.98deg, #C4BBED 0%, #E1C0D7 100%);
+border: 1px solid #000000;
+border-radius: 5px;
+left: 38px;
+}
+
+
+
+
+
+
+
+footer
+{
+position: relative;
+width: 100%;
+height: 190px;
+top:-1px;
+background-image: url("image_2022-11-06_19-52-08.png");
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: space-around;
+z-index: 1;
+overflow: hidden;
+
+}
+.footer-leftside
+{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 805px;
+  height: 205px;
+  
+}
+.footer-rightside
+{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 205px;
+
+}
+footer .footer-rightside p
+{
+  position: relative;
+  top: 143px;
+  right: 13px;
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
+}
+footer .footer-leftside h2
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
+  background: #FFFFFF;
+  border-radius: 5px;
+  width: 90px;
+  height: 29px;
+  left: 15px;
+  top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer .footer-leftside p
+{
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
+  border-radius: 5px;
+  left: 15px;
+}
+footer .footer-leftside p a
+{
+  color: black;
+  transition: 0.5s ease;
+}
+footer .footer-leftside p a:hover
+{
+  color: rgba(255, 0, 0, 0.386);
+}
+footer .footer-leftside i
+{
+  margin-right: 15px;
+  width: 58px;
+  height: 29px;
+  background: #FFFFFF;
+  border: 1px solid black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+@media (max-width:1280px)
+{
+  main
+  {
+    flex-direction: column;
+    height: 1600px;
+    align-items: center;
+  }
+  .card
+  {
+    top: 50px;
+  }
+  
+}
+@media (max-height:900px)
+{
+body
+{
+  overflow-y: scroll;
+}
+  
+}
+

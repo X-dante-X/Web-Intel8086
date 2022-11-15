@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model regModel
+
+
+<div class="card">
+    <form class="regform" asp-controller="home" asp-action="enter" method="post">
+        <div class="regform1">
+            <div><input type="text" asp-for="AL" id="AL" title="00-FF" maxlength="2" oninput="this.value = this.value.toUpperCase();" pattern="[a-fA-F0-9]{2,2}" required value="@ViewData["AL"]" /> <label for="AL">AL</label></div>
+            <div><input type="text" asp-for="AH" id="AH" title="00-FF" maxlength="2" oninput="this.value = this.value.toUpperCase();" pattern="[a-fA-F0-9]{2,2}" required value="@ViewData["AH"]" /> <label for="AH">AH</label></div>
+            <div><input type="text" asp-for="BL" id="BL" title="00-FF" maxlength="2" oninput="this.value = this.value.toUpperCase();" pattern="[a-fA-F0-9]{2,2}" required value="@ViewData["BL"]" /> <label for="BL">BL</label></div>
+            <div><input type="text" asp-for="BH" id="BH" title="00-FF" maxlength="2" oninput="this.value = this.value.toUpperCase();" pattern="[a-fA-F0-9]{2,2}" required value="@ViewData["BH"]" /> <label for="BH">BH</label></div>
+            <div><input type="text" asp-for="CL" id="CL" title="00-FF" maxlength="2" oninput="this.value = this.value.toUpperCase();" pattern="[a-fA-F0-9]{2,2}" required value="@ViewData["CL"]" /> <label for="CL">CL</label></div>
+            <div><input type="text" asp-for="CH" id="CH" title="00-FF" maxlength="2" oninput="this.value = this.value.toUpperCase();" pattern="[a-fA-F0-9]{2,2}" required value="@ViewData["CH"]" /> <label for="CH">CH</label></div>
+            <div><input type="text" asp-for="DL" id="DL" title="00-FF" maxlength="2" oninput="this.value = this.value.toUpperCase();" pattern="[a-fA-F0-9]{2,2}" required value="@ViewData["DL"]" /> <label for="DL">DL</label></div>
+            <div><input type="text" asp-for="DH" id="DH" title="00-FF" maxlength="2" oninput="this.value = this.value.toUpperCase();" pattern="[a-fA-F0-9]{2,2}" required value="@ViewData["DH"]" /> <label for="DH">DH</label></div>
+        </div>
+        <div class="regform2">
+            <button type="submit">ENTER</button>
+        </div>
+    </form>
+</div>
+<div class="card">
+    <h2 class="hfunc">
+        FUNCTIONS
+    </h2>
+    <form class="regform" asp-controller="home" asp-action="execut" method="post">
+        <div class="regformmid">
+            <div>
+                <select asp-for="fc">
+                    <option value="MOV">MOV</option>
+                    <option value="XCHG">XCHG</option>
+                    <option value="INC">INC</option>
+                    <option value="DEC">DEC</option>
+                    <option value="NOT">NOT</option>
+                    <option value="ADD">ADD</option>
+                    <option value="SUB">SUB</option>
+                    <option value="AND">AND</option>
+                    <option value="OR">OR</option>
+                    <option value="XOR">XOR</option>
+                    <option value="RES">RES</option>
+
+                </select>
+            </div>
+            <div><input type="text" asp-for="index1" id="index1" title="reg name or 0000-FFFF" placeholder="TO" maxlength="4" oninput="this.value = this.value.toUpperCase();" pattern="[a-zA-Z0-9]{1,4}" /></div>
+            <div><input type="text" asp-for="index2" id="index2" title="reg name or 0000-FFFF" placeholder="FROM" maxlength="4" oninput="this.value = this.value.toUpperCase();" pattern="[a-zA-Z0-9]{1,4}" /></div>
+            <button type="submit">EXECUT</button>
+        </div>
+    </form>
+</div>
+<div class="card">
+    <h2 class="hfuncmem">
+        MEMORY FUNCTIONS
+    </h2>
+    <div class="regformright">
+        <div class="firstfc">
+            <form asp-controller="home" asp-action="insert" method="post">
+                <div><input type="text" asp-for="index3" id="add1" placeholder="ADDRESS" title="reg name or 0000-FFFF" maxlength="4" oninput="this.value = this.value.toUpperCase();" pattern="[a-fA-F0-9]{4}" required /></div>
+                <button type="submit">INSERT</button>
+                <div><input type="text" asp-for="index4" id="data1" placeholder="DATA" title="00-FF" maxlength="2" oninput="this.value = this.value.toUpperCase();" pattern="[a-fA-F0-9]{2}" required /></div>
+            </form>
+        </div>
+        <div class="secondfc">
+            <form asp-controller="home" asp-action="show" method="post">
+                <div>
+                    <input type="text" asp-for="index5" id="add2" placeholder="ADDRESS" title="0000-FFFF" maxlength="4" oninput="this.value = this.value.toUpperCase();" pattern="[a-zA-Z0-9]{4}" required /> <button type="submit" onclick="show()">SHOW</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+@*@if (ViewData["show"] != null)
+{
+    <script type="text/javascript">
+            alert("value on this memory = " + @ViewData["show"]);
+    </script>
+}*@
+<script>
+    function show()
+    {
+        alert("value on this memory = " + @ViewData["show"]);
+    }
+</script>
+
+
+
+
+

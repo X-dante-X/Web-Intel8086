@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Intel8086</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Intel8086_web.styles.css" asp-append-version="true" />
+    <link href='https://fonts.googleapis.com/css?family=Gugi' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="intel">
+                <a asp-area="" asp-page="/Index">INTEL</a>
+            </div>
+        </nav>
+    </header>
+        <main role="main">
+            @RenderBody()
+        </main>
+    <footer>
+        <div class="footer-leftside">
+            <h2 class="contact">
+                Contact:
+            </h2>
+            <p>
+                <i class="fab fa-google"></i>
+                Email: &nbsp<a href="mailto:solomamd17@gmail.com" target="_blank"> solomamd17@gmail.com</a>
+            </p>
+            <p>
+                <i class="fab fa-github"></i>
+                Github:&nbsp <a href="https://github.com/X-dante-X" target="_blank">x-dante-x</a>
+            </p>
+            <p>
+                <i class="fa fa-globe"></i>
+                Website: &nbsp<a href="https://github.com/X-dante-X" target="_blank">dante developer</a>
+            </p>
+        </div>
+        <div class="footer-rightside">
+            <p>
+                Copyrights 2022 Dante developer
+            </p>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
