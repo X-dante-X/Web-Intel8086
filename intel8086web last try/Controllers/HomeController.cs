@@ -155,6 +155,7 @@ namespace intel8086web_last_try.Controllers
             {
                 intel.registers[1, i] = "";
             }
+            Array.Clear(intel.memory);
             return;
         }
 

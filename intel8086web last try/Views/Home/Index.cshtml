@@ -71,18 +71,21 @@
     </div>
 
 </div>
-@*@if (ViewData["show"] != null)
+@if (ViewData["show"] != null)
 {
     <script type="text/javascript">
-            alert("value on this memory = " + @ViewData["show"]);
+        window.onload = function () {
+            alert("value on this memory = " + "@ViewData["show"]");
+        };
     </script>
-}*@
-<script>
+}
+@*<script>
     function show()
     {
-        alert("value on this memory = " + @ViewData["show"]);
+
+        alert("value on this memory = " + "@ViewData["show"]");
     }
-</script>
+</script>*@
 
 
 
