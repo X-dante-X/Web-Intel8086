@@ -762,8 +762,11 @@ namespace intel8086web_last_try.Controllers
         public IActionResult show(regModel model)
         {
             int temp = int.Parse(model.index5, NumberStyles.AllowHexSpecifier); ;
-            
-            ViewData["show"] = intel.memory[temp];
+
+            if (intel.memory[temp] != null)
+                ViewData["show"] = intel.memory[temp];
+            else
+                ViewData["show"] = "null";
 
 
             ViewData["AL"] = intel.registers[1, 0];

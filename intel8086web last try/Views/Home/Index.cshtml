@@ -43,8 +43,8 @@
 
                 </select>
             </div>
-            <div><input type="text" asp-for="index1" id="index1" title="reg name or 0000-FFFF" placeholder="TO" maxlength="4" oninput="this.value = this.value.toUpperCase();" pattern="[a-zA-Z0-9]{1,4}" /></div>
-            <div><input type="text" asp-for="index2" id="index2" title="reg name or 0000-FFFF" placeholder="FROM" maxlength="4" oninput="this.value = this.value.toUpperCase();" pattern="[a-zA-Z0-9]{1,4}" /></div>
+            <div><input type="text" asp-for="index1" id="index1" title="reg name or 0000-FFFF" placeholder="TO" maxlength="4" oninput="this.value = this.value.toUpperCase();" pattern="([a-fA-F0-9]{4})|(AL)|(AH)|(BL)|(BH)|(CL)|(CH)|(DL)|(DH)" /></div>
+            <div><input type="text" asp-for="index2" id="index2" title="reg name or 0000-FFFF" placeholder="FROM" maxlength="4" oninput="this.value = this.value.toUpperCase();" pattern="([a-fA-F0-9]{4})|(AL)|(AH)|(BL)|(BH)|(CL)|(CH)|(DL)|(DH)" /></div>
             <button type="submit">EXECUT</button>
         </div>
     </form>
