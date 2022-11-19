@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jLgTLUikfaZNHu5R3jxGlECaQF5ComFDIbK1HkH934c=",
+  "Hash": "D+SXrAvptmCjo01+uR14ZcP/JSNyLlnZ4RLXvs2S9ig=",
   "Source": "intel8086web last try",
   "BasePath": "_content/intel8086web last try",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\image_2022-11-06_21-16-46.png"
+    },
+    {
+      "Identity": "C:\\Users\\solom\\source\\repos\\intel8086web last try\\intel8086web last try\\wwwroot\\css\\logo.png",
+      "SourceId": "intel8086web last try",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\solom\\source\\repos\\intel8086web last try\\intel8086web last try\\wwwroot\\",
+      "BasePath": "_content/intel8086web last try",
+      "RelativePath": "css/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\logo.png"
     },
     {
       "Identity": "C:\\Users\\solom\\source\\repos\\intel8086web last try\\intel8086web last try\\wwwroot\\css\\site.css",
